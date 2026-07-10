@@ -1,0 +1,140 @@
+{
+  "description": "Cost-adjusted backtest \u2014 LGB v3 intraday features, CLOSE-TO-CLOSE execution",
+  "execution": "Enter T-1 close, exit T close, signal generated using all features observable by T-1 close + same-day v3 signals",
+  "model": "LightGBM (CalibratedClassifierCV isotonic), best from v3 (86.7% acc, Sharpe 11.0)",
+  "cost_scenarios_bps": {
+    "optimistic": 10,
+    "base": 30,
+    "pessimistic": 60
+  },
+  "carry_bps_per_day": 0.397,
+  "best_threshold": 0.7,
+  "threshold_sweep": {
+    "0.5": {
+      "threshold": 0.5,
+      "n_trades": 5012,
+      "filter_pct": 100.0,
+      "accuracy": 0.8553,
+      "gross_sharpe": 9.953,
+      "net_sharpe": {
+        "optimistic": 8.069,
+        "base": 4.314,
+        "pessimistic": -1.319
+      },
+      "avg_gross_ret_bps": 53.0,
+      "max_drawdown_pct": -9.8
+    },
+    "0.52": {
+      "threshold": 0.52,
+      "n_trades": 4919,
+      "filter_pct": 98.1,
+      "accuracy": 0.863,
+      "gross_sharpe": 10.289,
+      "net_sharpe": {
+        "optimistic": 8.385,
+        "base": 4.591,
+        "pessimistic": -1.101
+      },
+      "avg_gross_ret_bps": 54.22,
+      "max_drawdown_pct": -9.13
+    },
+    "0.55": {
+      "threshold": 0.55,
+      "n_trades": 4773,
+      "filter_pct": 95.2,
+      "accuracy": 0.8735,
+      "gross_sharpe": 10.663,
+      "net_sharpe": {
+        "optimistic": 8.746,
+        "base": 4.924,
+        "pessimistic": -0.808
+      },
+      "avg_gross_ret_bps": 55.79,
+      "max_drawdown_pct": -9.54
+    },
+    "0.57": {
+      "threshold": 0.57,
+      "n_trades": 4667,
+      "filter_pct": 93.1,
+      "accuracy": 0.8798,
+      "gross_sharpe": 10.906,
+      "net_sharpe": {
+        "optimistic": 8.977,
+        "base": 5.135,
+        "pessimistic": -0.628
+      },
+      "avg_gross_ret_bps": 56.75,
+      "max_drawdown_pct": -9.13
+    },
+    "0.6": {
+      "threshold": 0.6,
+      "n_trades": 4512,
+      "filter_pct": 90.0,
+      "accuracy": 0.8876,
+      "gross_sharpe": 11.141,
+      "net_sharpe": {
+        "optimistic": 9.209,
+        "base": 5.358,
+        "pessimistic": -0.418
+      },
+      "avg_gross_ret_bps": 57.85,
+      "max_drawdown_pct": -9.75
+    },
+    "0.63": {
+      "threshold": 0.63,
+      "n_trades": 4377,
+      "filter_pct": 87.3,
+      "accuracy": 0.8949,
+      "gross_sharpe": 11.437,
+      "net_sharpe": {
+        "optimistic": 9.5,
+        "base": 5.642,
+        "pessimistic": -0.146
+      },
+      "avg_gross_ret_bps": 59.26,
+      "max_drawdown_pct": -9.39
+    },
+    "0.65": {
+      "threshold": 0.65,
+      "n_trades": 4276,
+      "filter_pct": 85.3,
+      "accuracy": 0.9001,
+      "gross_sharpe": 11.595,
+      "net_sharpe": {
+        "optimistic": 9.655,
+        "base": 5.789,
+        "pessimistic": -0.01
+      },
+      "avg_gross_ret_bps": 59.97,
+      "max_drawdown_pct": -8.23
+    },
+    "0.7": {
+      "threshold": 0.7,
+      "n_trades": 4007,
+      "filter_pct": 79.9,
+      "accuracy": 0.9109,
+      "gross_sharpe": 12.166,
+      "net_sharpe": {
+        "optimistic": 10.183,
+        "base": 6.232,
+        "pessimistic": 0.307
+      },
+      "avg_gross_ret_bps": 61.57,
+      "max_drawdown_pct": -7.72
+    }
+  },
+  "summary": {
+    "n_oos_days": 5012,
+    "n_trades": 4007,
+    "trade_pct": 79.9,
+    "gross_sharpe": 12.166,
+    "net_sharpe_optimistic": 10.183,
+    "net_sharpe_base": 6.232,
+    "net_sharpe_pessimistic": 0.307,
+    "accuracy": 0.9109,
+    "avg_gross_bps": 61.57,
+    "max_drawdown_pct": -7.72,
+    "gross_total_return_pct": 2467.3,
+    "net_total_return_base_pct": 1264.4
+  }
+}

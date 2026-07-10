@@ -1,0 +1,9 @@
+{
+  "timesfm_available": true,
+  "horizon_days": 21,
+  "context_len": 512,
+  "naive_mae_mean": 0.028715,
+  "drift_mae_mean": 0.030009,
+  "timesfm_mae_mean": 0.031185,
+  "n_windows": 9
+}

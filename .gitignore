@@ -1,47 +1,38 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
+# Environments & secrets
+.env
+.venv/
+venv/
 
-# Folder config file
-Desktop.ini
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+# Data (all data stays out of git; keep folder structure via .gitkeep)
+data/*
+!data/.gitkeep
+!data/raw/
+data/raw/*
+!data/raw/.gitkeep
+!data/interim/
+data/interim/*
+!data/interim/.gitkeep
+!data/processed/
+data/processed/*
+!data/processed/.gitkeep
+!data/external/
+data/external/*
+!data/external/.gitkeep
+mt5/*.csv
+*.xls
+*.xlsx
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
-
-# Windows shortcuts
-*.lnk
-
-# =========================
-# Operating System Files
-# =========================
-
-# OSX
-# =========================
-
+# OS
 .DS_Store
-.AppleDouble
-.LSOverride
+Thumbs.db
 
-# Thumbnails
-._*
-
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+# Tooling
+.claude/settings.local.json
+# .mcp.json contains an inline API key
+.mcp.json

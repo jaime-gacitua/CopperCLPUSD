@@ -1,0 +1,23 @@
+{
+  "strategy": "Strategy B \u2014 XTB fade-gap",
+  "started": null,
+  "template": {
+    "columns": [
+      "date",
+      "prev_close_bcch",
+      "xtb_open",
+      "xtb_close",
+      "spread_rt_bps",
+      "gap",
+      "otc",
+      "signal",
+      "gross_ret",
+      "net_ret"
+    ],
+    "bcch_source": "https://si3.bcentral.cl/Siete/es/Siete/Cuadro/CAP_TIPO_CAMBIO/MN_TCO_1501.3",
+    "open_time": "08:30 Santiago (12:30 CET winter, 13:30 CET summer)",
+    "close_time": "13:45 Santiago (17:45 CET winter, 18:45 CET summer)",
+    "note": "Record xtb_open as soon as platform opens. Record xtb_close before 13:50."
+  },
+  "trades": []
+}

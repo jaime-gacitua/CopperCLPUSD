@@ -1,0 +1,272 @@
+{
+  "notebook": "10_backtest_strategyB_real",
+  "data_source": "TwelveData USD/CLP hourly (America/Santiago)",
+  "data_range": "2019-10-06 to 2026-06-21",
+  "n_mcf_sessions": 1719,
+  "corr_gap_otc_all": -0.0909,
+  "avg_abs_gap_bps": 28.5,
+  "avg_abs_otc_bps": 59.7,
+  "best_xtb_config": {
+    "gap_th_bps": 100.0,
+    "vol_filter": "rv21>10%",
+    "cost": "XTB 6.5bps",
+    "n_trades": 57,
+    "net_sharpe": 2.296,
+    "ann_ret_pct": 45.2,
+    "avg_gross_bps": 24.4,
+    "win_rate": 0.526
+  },
+  "backtest_results": [
+    {
+      "gap_th_bps": 0.0,
+      "vol_filter": "any",
+      "cost": "XTB 6.5bps",
+      "n_trades": 1701,
+      "net_sharpe": -0.279,
+      "ann_ret_pct": -3.57,
+      "avg_gross_bps": 5.1,
+      "win_rate": 0.513
+    },
+    {
+      "gap_th_bps": 0.0,
+      "vol_filter": "any",
+      "cost": "30bps",
+      "n_trades": 1701,
+      "net_sharpe": -4.912,
+      "ann_ret_pct": -62.79,
+      "avg_gross_bps": 5.1,
+      "win_rate": 0.513
+    },
+    {
+      "gap_th_bps": 0.0,
+      "vol_filter": "rv21>10%",
+      "cost": "XTB 6.5bps",
+      "n_trades": 1486,
+      "net_sharpe": -0.348,
+      "ann_ret_pct": -4.58,
+      "avg_gross_bps": 4.7,
+      "win_rate": 0.512
+    },
+    {
+      "gap_th_bps": 0.0,
+      "vol_filter": "rv21>10%",
+      "cost": "30bps",
+      "n_trades": 1486,
+      "net_sharpe": -4.857,
+      "ann_ret_pct": -63.8,
+      "avg_gross_bps": 4.7,
+      "win_rate": 0.512
+    },
+    {
+      "gap_th_bps": 20.0,
+      "vol_filter": "any",
+      "cost": "XTB 6.5bps",
+      "n_trades": 806,
+      "net_sharpe": 0.302,
+      "ann_ret_pct": 4.03,
+      "avg_gross_bps": 8.1,
+      "win_rate": 0.535
+    },
+    {
+      "gap_th_bps": 20.0,
+      "vol_filter": "any",
+      "cost": "30bps",
+      "n_trades": 806,
+      "net_sharpe": -4.132,
+      "ann_ret_pct": -55.19,
+      "avg_gross_bps": 8.1,
+      "win_rate": 0.535
+    },
+    {
+      "gap_th_bps": 20.0,
+      "vol_filter": "rv21>10%",
+      "cost": "XTB 6.5bps",
+      "n_trades": 707,
+      "net_sharpe": 0.203,
+      "ann_ret_pct": 2.79,
+      "avg_gross_bps": 7.6,
+      "win_rate": 0.526
+    },
+    {
+      "gap_th_bps": 20.0,
+      "vol_filter": "rv21>10%",
+      "cost": "30bps",
+      "n_trades": 707,
+      "net_sharpe": -4.117,
+      "ann_ret_pct": -56.43,
+      "avg_gross_bps": 7.6,
+      "win_rate": 0.526
+    },
+    {
+      "gap_th_bps": 43.0,
+      "vol_filter": "any",
+      "cost": "XTB 6.5bps",
+      "n_trades": 344,
+      "net_sharpe": 0.88,
+      "ann_ret_pct": 12.35,
+      "avg_gross_bps": 11.4,
+      "win_rate": 0.541
+    },
+    {
+      "gap_th_bps": 43.0,
+      "vol_filter": "any",
+      "cost": "30bps",
+      "n_trades": 344,
+      "net_sharpe": -3.34,
+      "ann_ret_pct": -46.87,
+      "avg_gross_bps": 11.4,
+      "win_rate": 0.541
+    },
+    {
+      "gap_th_bps": 43.0,
+      "vol_filter": "rv21>10%",
+      "cost": "XTB 6.5bps",
+      "n_trades": 307,
+      "net_sharpe": 0.798,
+      "ann_ret_pct": 11.59,
+      "avg_gross_bps": 11.1,
+      "win_rate": 0.534
+    },
+    {
+      "gap_th_bps": 43.0,
+      "vol_filter": "rv21>10%",
+      "cost": "30bps",
+      "n_trades": 307,
+      "net_sharpe": -3.282,
+      "ann_ret_pct": -47.63,
+      "avg_gross_bps": 11.1,
+      "win_rate": 0.534
+    },
+    {
+      "gap_th_bps": 60.0,
+      "vol_filter": "any",
+      "cost": "XTB 6.5bps",
+      "n_trades": 191,
+      "net_sharpe": 1.53,
+      "ann_ret_pct": 24.41,
+      "avg_gross_bps": 16.2,
+      "win_rate": 0.539
+    },
+    {
+      "gap_th_bps": 60.0,
+      "vol_filter": "any",
+      "cost": "30bps",
+      "n_trades": 191,
+      "net_sharpe": -2.182,
+      "ann_ret_pct": -34.81,
+      "avg_gross_bps": 16.2,
+      "win_rate": 0.539
+    },
+    {
+      "gap_th_bps": 60.0,
+      "vol_filter": "rv21>10%",
+      "cost": "XTB 6.5bps",
+      "n_trades": 172,
+      "net_sharpe": 1.519,
+      "ann_ret_pct": 24.99,
+      "avg_gross_bps": 16.4,
+      "win_rate": 0.535
+    },
+    {
+      "gap_th_bps": 60.0,
+      "vol_filter": "rv21>10%",
+      "cost": "30bps",
+      "n_trades": 172,
+      "net_sharpe": -2.08,
+      "ann_ret_pct": -34.23,
+      "avg_gross_bps": 16.4,
+      "win_rate": 0.535
+    },
+    {
+      "gap_th_bps": 100.0,
+      "vol_filter": "any",
+      "cost": "XTB 6.5bps",
+      "n_trades": 61,
+      "net_sharpe": 2.293,
+      "ann_ret_pct": 44.15,
+      "avg_gross_bps": 24.0,
+      "win_rate": 0.525
+    },
+    {
+      "gap_th_bps": 100.0,
+      "vol_filter": "any",
+      "cost": "30bps",
+      "n_trades": 61,
+      "net_sharpe": -0.783,
+      "ann_ret_pct": -15.07,
+      "avg_gross_bps": 24.0,
+      "win_rate": 0.525
+    },
+    {
+      "gap_th_bps": 100.0,
+      "vol_filter": "rv21>10%",
+      "cost": "XTB 6.5bps",
+      "n_trades": 57,
+      "net_sharpe": 2.296,
+      "ann_ret_pct": 45.2,
+      "avg_gross_bps": 24.4,
+      "win_rate": 0.526
+    },
+    {
+      "gap_th_bps": 100.0,
+      "vol_filter": "rv21>10%",
+      "cost": "30bps",
+      "n_trades": 57,
+      "net_sharpe": -0.712,
+      "ann_ret_pct": -14.02,
+      "avg_gross_bps": 24.4,
+      "win_rate": 0.526
+    }
+  ],
+  "year_stats": [
+    {
+      "year": 2019,
+      "n": 57,
+      "corr": -0.35887562931586536,
+      "sharpe_43bps": 9.148443890258342
+    },
+    {
+      "year": 2020,
+      "n": 255,
+      "corr": -0.16631062629895255,
+      "sharpe_43bps": 3.3585991700953604
+    },
+    {
+      "year": 2021,
+      "n": 244,
+      "corr": -0.1828186783457811,
+      "sharpe_43bps": 6.334229581933936
+    },
+    {
+      "year": 2022,
+      "n": 255,
+      "corr": -0.027526679099119267,
+      "sharpe_43bps": -0.8247457213531445
+    },
+    {
+      "year": 2023,
+      "n": 248,
+      "corr": -0.07643004085589325,
+      "sharpe_43bps": 2.2042401438964943
+    },
+    {
+      "year": 2024,
+      "n": 247,
+      "corr": -0.00023144183966356988,
+      "sharpe_43bps": -0.13842606342601918
+    },
+    {
+      "year": 2025,
+      "n": 245,
+      "corr": -0.06313322715529368,
+      "sharpe_43bps": 4.084240502426124
+    },
+    {
+      "year": 2026,
+      "n": 168,
+      "corr": 0.1544774312176196,
+      "sharpe_43bps": -3.1530459298726856
+    }
+  ],
+  "conclusion": "Strategy B signal exists but is WEAK (corr=-0.091 vs. prior invalid estimate of -0.59). Best achievable net Sharpe at XTB spreads (6.5bps RT): +1.5 (|gap|>60bps, 191 trades/6yr). The gap-fade signal was strongest 2019-2021 and has deteriorated since 2022. At 30bps RT the strategy is NOT viable under any filter. XTB is the ONLY broker where Strategy B could be net-positive."
+}

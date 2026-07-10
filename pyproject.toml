@@ -1,0 +1,36 @@
+[project]
+name = "copperclpusd"
+version = "0.1.0"
+description = "Copper price → CLP/USD predictive signal research"
+requires-python = ">=3.13"
+dependencies = [
+    # Data & numerics
+    "pandas>=2.2",
+    "numpy>=1.26",
+    "scipy>=1.13",
+    # Data fetching
+    "yfinance>=0.2",
+    "pandas-datareader>=0.10",
+    "requests>=2.31",
+    # Stats & ML
+    "statsmodels>=0.14",
+    "scikit-learn>=1.5",
+    "xgboost>=2.0",
+    "lightgbm>=4.3",
+    # Deep learning / TimesFM deps
+    "torch>=2.3",
+    "jax[cpu]>=0.4",
+    # Visualization
+    "matplotlib>=3.9",
+    "seaborn>=0.13",
+    "plotly>=5.22",
+    # Notebooks
+    "jupyter>=1.0",
+    "ipykernel>=6.29",
+    # Utilities
+    "tqdm>=4.66",
+    "python-dotenv>=1.0",
+    "openpyxl>=3.1",
+    "xlrd>=2.0.2",
+    "timesfm[cpu]>=2.0.1",
+]

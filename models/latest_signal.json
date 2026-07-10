@@ -1,0 +1,12 @@
+{
+  "date": "2026-06-19",
+  "signal": 1,
+  "signal_text": "LONG USD/CLP (expect CLP to WEAKEN vs USD)",
+  "model_votes": {
+    "lr": "LONG",
+    "xgb": "LONG",
+    "lgb": "LONG"
+  },
+  "confidence": 1.0,
+  "lag_policy": "Copper features are lagged \u22651 day \u2014 signal is tradeable on the NEXT business day"
+}

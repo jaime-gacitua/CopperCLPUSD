@@ -1,0 +1,26 @@
+{
+  "description": "Strategy B (XTB fade-gap) data quality analysis and backtest",
+  "conclusion": "Cannot build reliable backtest from free data \u2014 yfinance opens have look-ahead bias; AV opens don't match MCF open",
+  "data_quality": {
+    "yfinance_look_ahead_pct": 0.7376207729468599,
+    "av_real_open_days": 372,
+    "av_corr_gap_otc": -0.010754508121242429
+  },
+  "theoretical_edge": {
+    "corr_gap_otc_reported": -0.5,
+    "corr_gap_otc_source": "Research notes (pre-2012, yfinance data \u2014 look-ahead contaminated)",
+    "corr_gap_otc_trusted": null,
+    "status": "UNKNOWN \u2014 needs paper trading or commercial intraday data"
+  },
+  "xtb_parameters": {
+    "cost_rt_bps": 6.5,
+    "session_open": "08:30 Santiago (12:30-13:30 CET)",
+    "session_close": "13:45 Santiago (17:45-18:45 CET)"
+  },
+  "recommended_next_steps": [
+    "1. Paper trade: record XTB open (08:30) and close (13:45) for 30-60 days",
+    "2. Compute corr(gap, otc) from paper trade data",
+    "3. Only go live if corr < -0.3 and avg gross > 20 bps (3x cost)",
+    "4. Alternative: purchase intraday CLP/USD data from Refinitiv/Bloomberg"
+  ]
+}

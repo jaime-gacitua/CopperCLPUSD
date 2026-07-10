@@ -1,0 +1,114 @@
+{
+  "description": "Cost-adjusted backtest \u2014 RF v2 macro signals, open-to-close, fixed size",
+  "execution": "Enter T-open, exit T-close, signal from T-1 close prices",
+  "cost_scenarios_bps": {
+    "optimistic": 10,
+    "base": 20,
+    "pessimistic": 40
+  },
+  "best_threshold": 0.6,
+  "threshold_sweep": {
+    "0.5": {
+      "threshold": 0.5,
+      "n_trades": 5011,
+      "filter_pct": 100.0,
+      "accuracy": 0.6266,
+      "gross_sharpe": -0.071,
+      "net_sharpe": {
+        "optimistic": -0.237,
+        "base": -0.403,
+        "pessimistic": -0.736
+      },
+      "avg_gross_ret_bps": -4.25
+    },
+    "0.52": {
+      "threshold": 0.52,
+      "n_trades": 4547,
+      "filter_pct": 90.7,
+      "accuracy": 0.636,
+      "gross_sharpe": -0.08,
+      "net_sharpe": {
+        "optimistic": -0.238,
+        "base": -0.397,
+        "pessimistic": -0.714
+      },
+      "avg_gross_ret_bps": -5.02
+    },
+    "0.55": {
+      "threshold": 0.55,
+      "n_trades": 3926,
+      "filter_pct": 78.3,
+      "accuracy": 0.6572,
+      "gross_sharpe": -0.071,
+      "net_sharpe": {
+        "optimistic": -0.219,
+        "base": -0.366,
+        "pessimistic": -0.661
+      },
+      "avg_gross_ret_bps": -4.83
+    },
+    "0.57": {
+      "threshold": 0.57,
+      "n_trades": 3417,
+      "filter_pct": 68.2,
+      "accuracy": 0.6673,
+      "gross_sharpe": -0.06,
+      "net_sharpe": {
+        "optimistic": -0.197,
+        "base": -0.335,
+        "pessimistic": -0.61
+      },
+      "avg_gross_ret_bps": -4.35
+    },
+    "0.6": {
+      "threshold": 0.6,
+      "n_trades": 2740,
+      "filter_pct": 54.7,
+      "accuracy": 0.6901,
+      "gross_sharpe": -0.05,
+      "net_sharpe": {
+        "optimistic": -0.173,
+        "base": -0.297,
+        "pessimistic": -0.543
+      },
+      "avg_gross_ret_bps": -4.06
+    },
+    "0.63": {
+      "threshold": 0.63,
+      "n_trades": 2188,
+      "filter_pct": 43.7,
+      "accuracy": 0.7121,
+      "gross_sharpe": 0.258,
+      "net_sharpe": {
+        "optimistic": -1.736,
+        "base": -3.729,
+        "pessimistic": -7.715
+      },
+      "avg_gross_ret_bps": 1.29
+    },
+    "0.65": {
+      "threshold": 0.65,
+      "n_trades": 1869,
+      "filter_pct": 37.3,
+      "accuracy": 0.7223,
+      "gross_sharpe": 0.473,
+      "net_sharpe": {
+        "optimistic": -1.552,
+        "base": -3.577,
+        "pessimistic": -7.627
+      },
+      "avg_gross_ret_bps": 2.33
+    }
+  },
+  "summary": {
+    "n_oos_days": 5012,
+    "n_trades": 2740,
+    "trade_pct": 54.7,
+    "gross_sharpe": -0.05,
+    "net_sharpe_optimistic": -0.173,
+    "net_sharpe_base": -0.297,
+    "net_sharpe_pessimistic": -0.543,
+    "accuracy": 0.6901,
+    "max_drawdown_pct": -905.64
+  }
+}

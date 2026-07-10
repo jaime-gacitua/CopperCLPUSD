@@ -1,0 +1,414 @@
+{
+ "description": "Walk-forward on corrected (TwelveData-dated) matrix",
+ "date": "2026-07-10",
+ "results": {
+  "logit3_strict": {
+   "p0.55_g0bps_c6.5": {
+    "n": 134,
+    "per_yr": 24.5,
+    "win": 0.47,
+    "avg_gross_bps": -11.8,
+    "gross_sharpe": -2.18,
+    "net_sharpe": -3.38
+   },
+   "p0.55_g0bps_c40": {
+    "n": 134,
+    "per_yr": 24.5,
+    "win": 0.47,
+    "avg_gross_bps": -11.8,
+    "gross_sharpe": -2.18,
+    "net_sharpe": -9.57
+   },
+   "p0.55_g43bps_c6.5": {
+    "n": 92,
+    "per_yr": 16.9,
+    "win": 0.467,
+    "avg_gross_bps": -12.2,
+    "gross_sharpe": -2.26,
+    "net_sharpe": -3.47
+   },
+   "p0.55_g43bps_c40": {
+    "n": 92,
+    "per_yr": 16.9,
+    "win": 0.467,
+    "avg_gross_bps": -12.2,
+    "gross_sharpe": -2.26,
+    "net_sharpe": -9.66
+   },
+   "p0.55_g100bps_c6.5": {
+    "n": 44,
+    "per_yr": 8.1,
+    "win": 0.5,
+    "avg_gross_bps": -10.7,
+    "gross_sharpe": -1.8,
+    "net_sharpe": -2.9
+   },
+   "p0.55_g100bps_c40": {
+    "n": 44,
+    "per_yr": 8.1,
+    "win": 0.5,
+    "avg_gross_bps": -10.7,
+    "gross_sharpe": -1.8,
+    "net_sharpe": -8.57
+   },
+   "p0.6_g0bps_c6.5": {
+    "n": 24,
+    "per_yr": 4.4,
+    "win": 0.583,
+    "avg_gross_bps": 15.7,
+    "gross_sharpe": 3.39,
+    "net_sharpe": 1.99
+   },
+   "p0.6_g0bps_c40": {
+    "n": 24,
+    "per_yr": 4.4,
+    "win": 0.583,
+    "avg_gross_bps": 15.7,
+    "gross_sharpe": 3.39,
+    "net_sharpe": -5.25
+   }
+  },
+  "logit3_same": {
+   "p0.55_g0bps_c6.5": {
+    "n": 124,
+    "per_yr": 22.7,
+    "win": 0.54,
+    "avg_gross_bps": 3.4,
+    "gross_sharpe": 0.64,
+    "net_sharpe": -0.59
+   },
+   "p0.55_g0bps_c40": {
+    "n": 124,
+    "per_yr": 22.7,
+    "win": 0.54,
+    "avg_gross_bps": 3.4,
+    "gross_sharpe": 0.64,
+    "net_sharpe": -6.9
+   },
+   "p0.55_g43bps_c6.5": {
+    "n": 96,
+    "per_yr": 17.6,
+    "win": 0.552,
+    "avg_gross_bps": 3.1,
+    "gross_sharpe": 0.57,
+    "net_sharpe": -0.63
+   },
+   "p0.55_g43bps_c40": {
+    "n": 96,
+    "per_yr": 17.6,
+    "win": 0.552,
+    "avg_gross_bps": 3.1,
+    "gross_sharpe": 0.57,
+    "net_sharpe": -6.79
+   },
+   "p0.55_g100bps_c6.5": {
+    "n": 54,
+    "per_yr": 9.9,
+    "win": 0.556,
+    "avg_gross_bps": 5.8,
+    "gross_sharpe": 0.99,
+    "net_sharpe": -0.11
+   },
+   "p0.55_g100bps_c40": {
+    "n": 54,
+    "per_yr": 9.9,
+    "win": 0.556,
+    "avg_gross_bps": 5.8,
+    "gross_sharpe": 0.99,
+    "net_sharpe": -5.78
+   }
+  },
+  "logit_full": {
+   "p0.55_g0bps_c6.5": {
+    "n": 884,
+    "per_yr": 161.9,
+    "win": 0.507,
+    "avg_gross_bps": 3.1,
+    "gross_sharpe": 0.56,
+    "net_sharpe": -0.61
+   },
+   "p0.55_g0bps_c40": {
+    "n": 884,
+    "per_yr": 161.9,
+    "win": 0.507,
+    "avg_gross_bps": 3.1,
+    "gross_sharpe": 0.56,
+    "net_sharpe": -6.64
+   },
+   "p0.55_g43bps_c6.5": {
+    "n": 514,
+    "per_yr": 94.2,
+    "win": 0.521,
+    "avg_gross_bps": 6.1,
+    "gross_sharpe": 1.08,
+    "net_sharpe": -0.07
+   },
+   "p0.55_g43bps_c40": {
+    "n": 514,
+    "per_yr": 94.2,
+    "win": 0.521,
+    "avg_gross_bps": 6.1,
+    "gross_sharpe": 1.08,
+    "net_sharpe": -6.01
+   },
+   "p0.55_g100bps_c6.5": {
+    "n": 205,
+    "per_yr": 37.6,
+    "win": 0.517,
+    "avg_gross_bps": 2.9,
+    "gross_sharpe": 0.48,
+    "net_sharpe": -0.6
+   },
+   "p0.55_g100bps_c40": {
+    "n": 205,
+    "per_yr": 37.6,
+    "win": 0.517,
+    "avg_gross_bps": 2.9,
+    "gross_sharpe": 0.48,
+    "net_sharpe": -6.16
+   },
+   "p0.6_g0bps_c6.5": {
+    "n": 500,
+    "per_yr": 91.6,
+    "win": 0.528,
+    "avg_gross_bps": 6.4,
+    "gross_sharpe": 1.1,
+    "net_sharpe": -0.01
+   },
+   "p0.6_g0bps_c40": {
+    "n": 500,
+    "per_yr": 91.6,
+    "win": 0.528,
+    "avg_gross_bps": 6.4,
+    "gross_sharpe": 1.1,
+    "net_sharpe": -5.74
+   },
+   "p0.6_g43bps_c6.5": {
+    "n": 308,
+    "per_yr": 56.4,
+    "win": 0.536,
+    "avg_gross_bps": 8.6,
+    "gross_sharpe": 1.45,
+    "net_sharpe": 0.36
+   },
+   "p0.6_g43bps_c40": {
+    "n": 308,
+    "per_yr": 56.4,
+    "win": 0.536,
+    "avg_gross_bps": 8.6,
+    "gross_sharpe": 1.45,
+    "net_sharpe": -5.26
+   },
+   "p0.6_g100bps_c6.5": {
+    "n": 133,
+    "per_yr": 24.4,
+    "win": 0.549,
+    "avg_gross_bps": 12.6,
+    "gross_sharpe": 2.0,
+    "net_sharpe": 0.97
+   },
+   "p0.6_g100bps_c40": {
+    "n": 133,
+    "per_yr": 24.4,
+    "win": 0.549,
+    "avg_gross_bps": 12.6,
+    "gross_sharpe": 2.0,
+    "net_sharpe": -4.35
+   },
+   "p0.65_g0bps_c6.5": {
+    "n": 267,
+    "per_yr": 48.9,
+    "win": 0.491,
+    "avg_gross_bps": 4.1,
+    "gross_sharpe": 0.66,
+    "net_sharpe": -0.38
+   },
+   "p0.65_g0bps_c40": {
+    "n": 267,
+    "per_yr": 48.9,
+    "win": 0.491,
+    "avg_gross_bps": 4.1,
+    "gross_sharpe": 0.66,
+    "net_sharpe": -5.73
+   },
+   "p0.65_g43bps_c6.5": {
+    "n": 169,
+    "per_yr": 31.0,
+    "win": 0.497,
+    "avg_gross_bps": 5.1,
+    "gross_sharpe": 0.8,
+    "net_sharpe": -0.22
+   },
+   "p0.65_g43bps_c40": {
+    "n": 169,
+    "per_yr": 31.0,
+    "win": 0.497,
+    "avg_gross_bps": 5.1,
+    "gross_sharpe": 0.8,
+    "net_sharpe": -5.51
+   },
+   "p0.65_g100bps_c6.5": {
+    "n": 68,
+    "per_yr": 12.5,
+    "win": 0.485,
+    "avg_gross_bps": -0.4,
+    "gross_sharpe": -0.06,
+    "net_sharpe": -1.07
+   },
+   "p0.65_g100bps_c40": {
+    "n": 68,
+    "per_yr": 12.5,
+    "win": 0.485,
+    "avg_gross_bps": -0.4,
+    "gross_sharpe": -0.06,
+    "net_sharpe": -6.29
+   }
+  },
+  "gbm_full": {
+   "p0.55_g0bps_c6.5": {
+    "n": 995,
+    "per_yr": 182.3,
+    "win": 0.516,
+    "avg_gross_bps": -0.5,
+    "gross_sharpe": -0.09,
+    "net_sharpe": -1.28
+   },
+   "p0.55_g0bps_c40": {
+    "n": 995,
+    "per_yr": 182.3,
+    "win": 0.516,
+    "avg_gross_bps": -0.5,
+    "gross_sharpe": -0.09,
+    "net_sharpe": -7.43
+   },
+   "p0.55_g43bps_c6.5": {
+    "n": 581,
+    "per_yr": 106.4,
+    "win": 0.503,
+    "avg_gross_bps": -4.9,
+    "gross_sharpe": -0.88,
+    "net_sharpe": -2.04
+   },
+   "p0.55_g43bps_c40": {
+    "n": 581,
+    "per_yr": 106.4,
+    "win": 0.503,
+    "avg_gross_bps": -4.9,
+    "gross_sharpe": -0.88,
+    "net_sharpe": -8.0
+   },
+   "p0.55_g100bps_c6.5": {
+    "n": 231,
+    "per_yr": 42.3,
+    "win": 0.459,
+    "avg_gross_bps": -11.0,
+    "gross_sharpe": -1.84,
+    "net_sharpe": -2.92
+   },
+   "p0.55_g100bps_c40": {
+    "n": 231,
+    "per_yr": 42.3,
+    "win": 0.459,
+    "avg_gross_bps": -11.0,
+    "gross_sharpe": -1.84,
+    "net_sharpe": -8.53
+   },
+   "p0.6_g0bps_c6.5": {
+    "n": 661,
+    "per_yr": 121.1,
+    "win": 0.516,
+    "avg_gross_bps": -1.5,
+    "gross_sharpe": -0.28,
+    "net_sharpe": -1.46
+   },
+   "p0.6_g0bps_c40": {
+    "n": 661,
+    "per_yr": 121.1,
+    "win": 0.516,
+    "avg_gross_bps": -1.5,
+    "gross_sharpe": -0.28,
+    "net_sharpe": -7.54
+   },
+   "p0.6_g43bps_c6.5": {
+    "n": 400,
+    "per_yr": 73.3,
+    "win": 0.497,
+    "avg_gross_bps": -7.0,
+    "gross_sharpe": -1.22,
+    "net_sharpe": -2.36
+   },
+   "p0.6_g43bps_c40": {
+    "n": 400,
+    "per_yr": 73.3,
+    "win": 0.497,
+    "avg_gross_bps": -7.0,
+    "gross_sharpe": -1.22,
+    "net_sharpe": -8.21
+   },
+   "p0.6_g100bps_c6.5": {
+    "n": 157,
+    "per_yr": 28.8,
+    "win": 0.484,
+    "avg_gross_bps": -10.4,
+    "gross_sharpe": -1.69,
+    "net_sharpe": -2.75
+   },
+   "p0.6_g100bps_c40": {
+    "n": 157,
+    "per_yr": 28.8,
+    "win": 0.484,
+    "avg_gross_bps": -10.4,
+    "gross_sharpe": -1.69,
+    "net_sharpe": -8.21
+   },
+   "p0.65_g0bps_c6.5": {
+    "n": 403,
+    "per_yr": 73.8,
+    "win": 0.511,
+    "avg_gross_bps": -3.2,
+    "gross_sharpe": -0.56,
+    "net_sharpe": -1.7
+   },
+   "p0.65_g0bps_c40": {
+    "n": 403,
+    "per_yr": 73.8,
+    "win": 0.511,
+    "avg_gross_bps": -3.2,
+    "gross_sharpe": -0.56,
+    "net_sharpe": -7.56
+   },
+   "p0.65_g43bps_c6.5": {
+    "n": 245,
+    "per_yr": 44.9,
+    "win": 0.498,
+    "avg_gross_bps": -9.1,
+    "gross_sharpe": -1.52,
+    "net_sharpe": -2.61
+   },
+   "p0.65_g43bps_c40": {
+    "n": 245,
+    "per_yr": 44.9,
+    "win": 0.498,
+    "avg_gross_bps": -9.1,
+    "gross_sharpe": -1.52,
+    "net_sharpe": -8.22
+   },
+   "p0.65_g100bps_c6.5": {
+    "n": 89,
+    "per_yr": 16.3,
+    "win": 0.539,
+    "avg_gross_bps": -11.2,
+    "gross_sharpe": -1.7,
+    "net_sharpe": -2.69
+   },
+   "p0.65_g100bps_c40": {
+    "n": 89,
+    "per_yr": 16.3,
+    "win": 0.539,
+    "avg_gross_bps": -11.2,
+    "gross_sharpe": -1.7,
+    "net_sharpe": -7.8
+   }
+  }
+ }
+}

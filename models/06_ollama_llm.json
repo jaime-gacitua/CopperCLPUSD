@@ -1,0 +1,242 @@
+{
+  "horizon_days": 5,
+  "context_days": 30,
+  "copper_lag": 1,
+  "n_windows": 12,
+  "summary": {
+    "qwen2.5:14b": {
+      "n_windows": 12,
+      "n_decided": 12,
+      "accuracy": 0.5833,
+      "sharpe_annualised": 1.2
+    },
+    "llama3.1:8b": {
+      "n_windows": 12,
+      "n_decided": 12,
+      "accuracy": 0.3333,
+      "sharpe_annualised": -2.51
+    }
+  },
+  "results": {
+    "qwen2.5:14b": [
+      {
+        "window": 0,
+        "date": "2023-07-17",
+        "actual_dir": 1,
+        "pred_dir": 0,
+        "correct": false,
+        "response": "DOWN\n\nThe recent positive copper log-return suggests an increase in copper prices, which historically leads to a stronge",
+        "elapsed_s": 9.2
+      },
+      {
+        "window": 1,
+        "date": "2023-10-12",
+        "actual_dir": 1,
+        "pred_dir": 1,
+        "correct": true,
+        "response": "UP\n\nThe recent negative copper log-return suggests lower copper prices, which historically leads to a weaker Chilean pes",
+        "elapsed_s": 7.2
+      },
+      {
+        "window": 2,
+        "date": "2024-01-09",
+        "actual_dir": 1,
+        "pred_dir": 1,
+        "correct": true,
+        "response": "UP\n\nThe recent negative copper log-return suggests lower copper prices, which historically leads to a weaker Chilean pes",
+        "elapsed_s": 7.2
+      },
+      {
+        "window": 3,
+        "date": "2024-04-05",
+        "actual_dir": 0,
+        "pred_dir": 0,
+        "correct": true,
+        "response": "DOWN\n\nThe recent positive copper log-return suggests an increase in copper prices, which typically leads to a stronger C",
+        "elapsed_s": 7.4
+      },
+      {
+        "window": 4,
+        "date": "2024-07-03",
+        "actual_dir": 0,
+        "pred_dir": 1,
+        "correct": false,
+        "response": "UP\n\nThe recent positive copper log-return suggests an initial strengthening of the peso, but given the historical volati",
+        "elapsed_s": 8.4
+      },
+      {
+        "window": 5,
+        "date": "2024-09-30",
+        "actual_dir": 1,
+        "pred_dir": 0,
+        "correct": false,
+        "response": "DOWN\n\nThe recent positive copper log-return suggests an increase in copper prices, which typically leads to a stronger C",
+        "elapsed_s": 7.4
+      },
+      {
+        "window": 6,
+        "date": "2024-12-26",
+        "actual_dir": 1,
+        "pred_dir": 1,
+        "correct": true,
+        "response": "UP\n\nThe recent positive copper log-return suggests an initial strengthening of the peso, but given the historical patter",
+        "elapsed_s": 8.7
+      },
+      {
+        "window": 7,
+        "date": "2025-03-26",
+        "actual_dir": 1,
+        "pred_dir": 1,
+        "correct": true,
+        "response": "UP\n\nThe recent negative copper log-return suggests lower copper prices, which historically leads to a weaker Chilean pes",
+        "elapsed_s": 7.2
+      },
+      {
+        "window": 8,
+        "date": "2025-06-24",
+        "actual_dir": 0,
+        "pred_dir": 1,
+        "correct": false,
+        "response": "UP\n\nThe recent negative copper log-return suggests lower copper prices, which historically leads to a weaker Chilean pes",
+        "elapsed_s": 7.1
+      },
+      {
+        "window": 9,
+        "date": "2025-09-19",
+        "actual_dir": 1,
+        "pred_dir": 1,
+        "correct": true,
+        "response": "UP\n\nThe recent negative copper log-return suggests lower copper prices, which historically leads to a weaker Chilean pes",
+        "elapsed_s": 7.2
+      },
+      {
+        "window": 10,
+        "date": "2025-12-17",
+        "actual_dir": 0,
+        "pred_dir": 1,
+        "correct": false,
+        "response": "UP\n\nThe recent positive copper log-return suggests an initial strengthening of the peso, but given the historical volati",
+        "elapsed_s": 8.4
+      },
+      {
+        "window": 11,
+        "date": "2026-03-18",
+        "actual_dir": 1,
+        "pred_dir": 1,
+        "correct": true,
+        "response": "UP\n\nThe recent positive copper log-return suggests an expected strengthening of the Chilean peso; however, given the his",
+        "elapsed_s": 8.6
+      }
+    ],
+    "llama3.1:8b": [
+      {
+        "window": 0,
+        "date": "2023-07-17",
+        "actual_dir": 1,
+        "pred_dir": 0,
+        "correct": false,
+        "response": "DOWN\n\nThe recent strong copper price increase (+0.0225 yesterday and +0.0233 two days ago) suggests that USD/CLP is like",
+        "elapsed_s": 5.6
+      },
+      {
+        "window": 1,
+        "date": "2023-10-12",
+        "actual_dir": 1,
+        "pred_dir": 0,
+        "correct": false,
+        "response": "DOWN\n\nThe copper log-return is expected to be positive today, given its tendency to trend upwards after a negative retur",
+        "elapsed_s": 4.2
+      },
+      {
+        "window": 2,
+        "date": "2024-01-09",
+        "actual_dir": 1,
+        "pred_dir": 0,
+        "correct": false,
+        "response": "DOWN\n\nThe copper log-return is expected to be positive today, given its tendency to rise after falling yesterday, which ",
+        "elapsed_s": 4.7
+      },
+      {
+        "window": 3,
+        "date": "2024-04-05",
+        "actual_dir": 0,
+        "pred_dir": 0,
+        "correct": true,
+        "response": "DOWN\n\nThe recent copper price surge (+0.0298 yesterday and +0.0059 the day before) suggests that USD/CLP is likely to we",
+        "elapsed_s": 4.7
+      },
+      {
+        "window": 4,
+        "date": "2024-07-03",
+        "actual_dir": 0,
+        "pred_dir": 0,
+        "correct": true,
+        "response": "DOWN\n\nThe copper log-return is expected to decline in the coming days based on its historical pattern of alternating bet",
+        "elapsed_s": 4.6
+      },
+      {
+        "window": 5,
+        "date": "2024-09-30",
+        "actual_dir": 1,
+        "pred_dir": 0,
+        "correct": false,
+        "response": "DOWN\n\nThe recent surge in copper prices has been followed by a strengthening of the peso, suggesting that USD/CLP will c",
+        "elapsed_s": 4.5
+      },
+      {
+        "window": 6,
+        "date": "2024-12-26",
+        "actual_dir": 1,
+        "pred_dir": 0,
+        "correct": false,
+        "response": "DOWN\n\nThe copper log-return is expected to decline in the coming days based on its recent trend and historical patterns,",
+        "elapsed_s": 4.8
+      },
+      {
+        "window": 7,
+        "date": "2025-03-26",
+        "actual_dir": 1,
+        "pred_dir": 0,
+        "correct": false,
+        "response": "DOWN\n\nThe copper log-return is expected to be positive in the near future based on its recent trend and seasonality, whi",
+        "elapsed_s": 4.8
+      },
+      {
+        "window": 8,
+        "date": "2025-06-24",
+        "actual_dir": 0,
+        "pred_dir": 0,
+        "correct": true,
+        "response": "DOWN\n\nThe recent decline in copper prices and yesterday's negative log-return suggest that USD/CLP is likely to continue",
+        "elapsed_s": 4.6
+      },
+      {
+        "window": 9,
+        "date": "2025-09-19",
+        "actual_dir": 1,
+        "pred_dir": 0,
+        "correct": false,
+        "response": "DOWN\n\nThe copper log-return is expected to be positive today, given its tendency to trend upwards and yesterday's value ",
+        "elapsed_s": 5.2
+      },
+      {
+        "window": 10,
+        "date": "2025-12-17",
+        "actual_dir": 0,
+        "pred_dir": 0,
+        "correct": true,
+        "response": "DOWN\n\nThe copper log-return is expected to decline in the near future based on its recent trend and volatility, which wo",
+        "elapsed_s": 4.8
+      },
+      {
+        "window": 11,
+        "date": "2026-03-18",
+        "actual_dir": 1,
+        "pred_dir": 0,
+        "correct": false,
+        "response": "DOWN\n\nThe copper log-return is expected to decline in the coming days based on its historical pattern of alternating bet",
+        "elapsed_s": 4.6
+      }
+    ]
+  }
+}
